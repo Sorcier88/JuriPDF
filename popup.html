@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 300px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    .history-item {
+      padding: 8px;
+      border-bottom: 1px solid #eee;
+      cursor: pointer;
+    }
+    .history-item:hover {
+      background-color: #f0f0f0;
+    }
+    .date {
+      font-size: 0.8em;
+      color: #666;
+    }
+    #download-latest {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      background-color: #0060df;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    #download-latest:hover {
+      background-color: #003eaa;
+    }
+  </style>
+</head>
+<body>
+  <button id="download-latest">Télécharger le dernier PDF</button>
+  <h3>Historique des PDFs</h3>
+  <div id="history-list"></div>
+  <script src="popup.js"></script>
+</body>
+</html> 
