@@ -16,13 +16,7 @@
     "storage",
     "contextMenus",
     "tabs",
-    "https://statics.stradalex.com/*",
-    "https://*.stradalex.com/*",
-    "https://*.uclouvain.be/*",
-    "https://*-stradalex-com.proxy.bib.uclouvain.be/*",
-    "https://*.lexnow.io/*",
-    "https://app.lexnow.io/*",
-    "https://storage.googleapis.com/lexnow-doc-content/*"
+    "<all_urls>"
   ],
   "browser_action": {
     "default_icon": "icon.png",

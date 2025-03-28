@@ -49,8 +49,6 @@ browser.webRequest.onBeforeRequest.addListener(
   {
     urls: [
       "*://*.stradalex.com/*",
-      "*://*-stradalex-com.proxy.bib.uclouvain.be/*",
-      "*://*.uclouvain.be/*",
       "*://*.lexnow.io/*",
       "*://app.lexnow.io/*",
       "*://storage.googleapis.com/lexnow-doc-content/*"
@@ -81,11 +79,6 @@ function handlePdfDetection(pdfUrl, pageUrl) {
 }
 
 function extractFileName(url) {
-  // Pour les URLs de type Stradalex avec proxy UCLouvain
-  const stradalexProxyMatch = url.match(/\/toc\/([A-Z0-9_]+)\/doc\/([A-Z0-9_]+)/i);
-  if (stradalexProxyMatch && stradalexProxyMatch[2]) {
-    return stradalexProxyMatch[2] + '.pdf';
-  }
   
   // Pour les URLs de type Stradalex standard
   const stradalexMatch = url.match(/\/doc\/([A-Z0-9_]+)/i);
