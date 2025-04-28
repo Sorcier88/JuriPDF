@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "JuriPDF - Extension pour Stradalex & Lexnow",
+  "version": "1.2",
+  "description": "Télécharge les PDFs depuis Stradalex et Lexnow",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "juripdf@sorcier.mozmail.com"
+    }
+  },
+  "permissions": [
+    "downloads",
+    "webRequest",
+    "webRequestBlocking",
+    "notifications",
+    "storage",
+    "contextMenus",
+    "tabs",
+    "<all_urls>"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Télécharger le PDF",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+} 

@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "JuriPDF",
+  "version": "1.0",
+  "description": "Extension pour télécharger les PDFs juridiques",
+  "permissions": [
+    "storage",
+    "downloads",
+    "notifications",
+    "webRequest",
+    "tabs",
+    "contextMenus"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
