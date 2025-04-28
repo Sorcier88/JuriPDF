@@ -65,7 +65,7 @@ JuriPDF est une extension Firefox qui permet de télécharger facilement les PDF
 
 ---
 
-# :chrome: Installation sur Chrome
+# Installation sur Chrome
 
 ⚠️ **Comme l'extension n'est pas disponible sur le Chrome Web Store**, il faut l'installer manuellement. Voici comment faire ! 
 
