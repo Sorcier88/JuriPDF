@@ -30,7 +30,7 @@ JuriPDF est une extension Firefox qui permet de télécharger facilement les PDF
 1. Télécharger l’extention
     - Cliquez sur ce lien pour télécharger l'extension : [JuriPDF - Firefox Add-ons](https://addons.mozilla.org/firefox/downloads/file/4464530/84b5dedd8eec4440bd01-1.2.xpi)
         - L’installation se fait automatiquement, passez à l’étape 2.
-    - Si rien ne se produit ou que le lien ne fonctionne pas, [télécharger le fichier directement depuis la page de releases](https://github.com/Sorcier88/JuriPDF/releases).
+    - Si rien ne se produit ou que le lien ne fonctionne pas, [télécharger le fichier xpi directement depuis la page de releases](https://github.com/Sorcier88/JuriPDF/releases).
         - Une fois téléchargé, ouvrez le fichier avec Firefox.
         - Une fois l’installation terminée, vous pourrez supprimer le fichier.
 2. Si une fenêtre contextuelle apparaîtra dans Firefox pour vous demander de confirmer l'installation. Cliquez sur **"Continuer l'installation"**.
